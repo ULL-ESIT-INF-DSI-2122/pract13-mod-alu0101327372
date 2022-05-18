@@ -1,6 +1,9 @@
 {
   "entryPoints": [
-    ""
+    "./src/db/mongoose.ts",
+    "./src/models/athlete.ts",
+    "./src/routers/AthleteCRUD.ts",
+    "./src/index.ts"
   ],
   "out": "./doc"
 }
